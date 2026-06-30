@@ -1,10 +1,10 @@
 C:\Users\smerp\RoqueLE2\RoqueBlogDB\bin\Debug\RoqueBlogDB.dacpac
+C:\Users\smerp\RoqueLE2\RoqueBlogDB\obj\Debug\RoqueBlogDB.sqlproj.AssemblyReference.cache
+C:\Users\smerp\RoqueLE2\RoqueBlogDB\obj\Debug\RoqueBlogDB.dll
+C:\Users\smerp\RoqueLE2\RoqueBlogDB\obj\Debug\RoqueBlogDB.pdb
 C:\Users\smerp\RoqueLE2\RoqueBlogDB\bin\Debug\RoqueBlogDB.dll
 C:\Users\smerp\RoqueLE2\RoqueBlogDB\bin\Debug\RoqueBlogDB.pdb
-C:\Users\smerp\RoqueLE2\RoqueBlogDB\obj\Debug\RoqueBlogDB.sqlproj.AssemblyReference.cache
 C:\Users\smerp\RoqueLE2\RoqueBlogDB\obj\Debug\Model.xml
 C:\Users\smerp\RoqueLE2\RoqueBlogDB\obj\Debug\refactor.xml
 C:\Users\smerp\RoqueLE2\RoqueBlogDB\obj\Debug\postdeploy.sql
 C:\Users\smerp\RoqueLE2\RoqueBlogDB\obj\Debug\predeploy.sql
-C:\Users\smerp\RoqueLE2\RoqueBlogDB\obj\Debug\RoqueBlogDB.dll
-C:\Users\smerp\RoqueLE2\RoqueBlogDB\obj\Debug\RoqueBlogDB.pdb
