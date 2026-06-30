@@ -1,3 +1,57 @@
-<h3><a href="/posts/{{ post?.id }}"> {{ post?.title }} </a></h3>
-<p>by {{ post?.firstName }} {{ post?.lastName }}; on {{ post?.dateCreated }}</p>
-<p>{{ post?.body }}</p>
+<a
+    routerLink="/"
+    class="back-button">
+
+    ← Back to Articles
+
+</a>
+
+<div
+    class="article-card"
+    *ngIf="post">
+
+    <div class="article-header">
+
+        <div class="article-author">
+
+            <div class="author-avatar">
+
+                {{ post.firstName.charAt(0) }}{{ post.lastName.charAt(0) }}
+
+            </div>
+
+            <div>
+
+                <div class="author-name">
+
+                    {{ post.firstName }} {{ post.lastName }}
+
+                </div>
+
+                <div class="article-date">
+
+                    Published on {{ post.dateCreated | date:'MMMM d, yyyy' }}
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <h1>
+
+            {{ post.title }}
+
+        </h1>
+
+    </div>
+
+    <div class="article-divider"></div>
+
+    <div class="article-content">
+
+        {{ post.body }}
+
+    </div>
+
+</div>

@@ -1,7 +1,64 @@
-<nav>
-  <a routerLink="/">Home</a> |
-  <a routerLink="/login">Login</a> |
-  <a routerLink="/register">Register</a>
+<nav class="navbar">
+
+    <div class="navbar-logo">
+
+        📰 BlogSpace
+
+    </div>
+
+    <div class="navbar-links">
+
+        <a
+            routerLink="/"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }">
+
+            Home
+
+        </a>
+
+        <ng-container *ngIf="!auth.isLoggedIn">
+
+            <a routerLink="/login">
+
+                Login
+
+            </a>
+
+            <a routerLink="/register">
+
+                Register
+
+            </a>
+
+        </ng-container>
+
+        <ng-container *ngIf="auth.isLoggedIn">
+
+            <span class="welcome">
+
+                👋 Welcome,
+
+                <strong>{{ auth.getUsername() }}</strong>
+
+            </span>
+
+            <a
+                href="#"
+                (click)="logout(); $event.preventDefault()">
+
+                Logout
+
+            </a>
+
+        </ng-container>
+
+    </div>
+
 </nav>
 
-<router-outlet></router-outlet>
+<div class="page-container">
+
+    <router-outlet></router-outlet>
+
+</div>

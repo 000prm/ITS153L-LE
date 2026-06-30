@@ -1,0 +1,223 @@
+.page-header{
+
+    margin-bottom:50px;
+
+    animation:fadeUp .5s ease;
+
+}
+
+.page-tag{
+
+    display:inline-block;
+
+    background:rgba(99,102,241,.12);
+
+    color:var(--primary);
+
+    padding:8px 18px;
+
+    border-radius:999px;
+
+    font-size:.85rem;
+
+    font-weight:700;
+
+    margin-bottom:18px;
+
+}
+
+.page-header h1{
+
+    margin-bottom:14px;
+
+    max-width:700px;
+
+}
+
+.page-header p{
+
+    font-size:1.05rem;
+
+    max-width:700px;
+
+}
+
+.post-card{
+
+    background:var(--surface);
+
+    border-radius:22px;
+
+    padding:30px;
+
+    margin-bottom:28px;
+
+    box-shadow:var(--shadow-md);
+
+    border:1px solid transparent;
+
+    transition:.3s;
+
+    animation:fadeUp .5s ease;
+
+}
+
+.post-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#c7d2fe;
+
+    box-shadow:
+
+        0 25px 50px rgba(99,102,241,.18);
+
+}
+
+.post-top{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:16px;
+
+    margin-bottom:20px;
+
+}
+
+.author-avatar{
+
+    width:52px;
+
+    height:52px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-weight:700;
+
+    color:white;
+
+    background:linear-gradient(
+        135deg,
+        var(--primary),
+        var(--secondary)
+    );
+
+}
+
+.author-name{
+
+    font-weight:700;
+
+}
+
+.post-date{
+
+    color:var(--muted);
+
+    font-size:.9rem;
+
+}
+
+.post-card h2{
+
+    margin-bottom:14px;
+
+    font-size:1.7rem;
+
+    line-height:1.3;
+
+}
+
+.post-card h2 a{
+
+    transition:.25s;
+
+}
+
+.post-card h2 a:hover{
+
+    color:var(--primary);
+
+}
+
+.post-preview{
+
+    margin-bottom:24px;
+
+    font-size:1rem;
+
+}
+
+.read-more{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-weight:700;
+
+    color:var(--primary);
+
+    transition:.25s;
+
+}
+
+.read-more:hover{
+
+    transform:translateX(6px);
+
+}
+
+.empty-state{
+
+    text-align:center;
+
+    padding:90px 20px;
+
+    background:white;
+
+    border-radius:22px;
+
+    box-shadow:var(--shadow-md);
+
+}
+
+.empty-icon{
+
+    font-size:70px;
+
+    margin-bottom:20px;
+
+}
+
+@media(max-width:768px){
+
+    .page-header{
+
+        text-align:center;
+
+    }
+
+    .post-card{
+
+        padding:22px;
+
+    }
+
+    .post-card h2{
+
+        font-size:1.45rem;
+
+    }
+
+}

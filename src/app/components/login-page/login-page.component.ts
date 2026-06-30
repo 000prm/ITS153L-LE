@@ -37,10 +37,15 @@ export class LoginPageComponent implements OnInit {
       { responseType: 'text' }
     ).subscribe({
       next: (token: string) => {
-        this.tokenStorage.saveToken(token);
-        this.router.navigate([this.authService.redirectUrl]);
-        window.location.reload();
-      },
+
+  this.tokenStorage.saveToken(token);
+this.tokenStorage.saveUsername(username);
+
+this.authService.isLoggedIn = true;
+
+  this.router.navigate([this.authService.redirectUrl || '/']);
+
+},
       error: (err) => {
         console.error('Login failed', err);
       }

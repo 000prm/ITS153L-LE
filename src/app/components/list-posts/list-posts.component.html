@@ -1,4 +1,95 @@
-<div *ngFor="let post of posts">
-    <h3><a href="/posts/{{ post.id }}"> {{ post.title }} </a></h3>
-    <p>by {{ post.firstName }} {{ post.lastName }} ; on {{ post.dateCreated }}</p>
+<div class="page-header">
+
+    <span class="page-tag">
+        Latest Stories
+    </span>
+
+    <h1>
+        Discover Articles From Our Community
+    </h1>
+
+    <p>
+        Explore tutorials, opinions, and experiences shared by developers and writers.
+    </p>
+
+</div>
+
+<div
+    class="post-card"
+    *ngFor="let post of posts">
+
+    <div class="post-top">
+
+        <div class="author-avatar">
+
+            {{ post.firstName.charAt(0) }}{{ post.lastName.charAt(0) }}
+
+        </div>
+
+        <div>
+
+            <div class="author-name">
+
+                {{ post.firstName }} {{ post.lastName }}
+
+            </div>
+
+            <div class="post-date">
+
+                {{ post.dateCreated | date:'MMMM d, yyyy' }}
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <h2>
+
+        <a [routerLink]="['/posts', post.id]">
+
+            {{ post.title }}
+
+        </a>
+
+    </h2>
+
+    <p class="post-preview">
+
+        Click below to read the full article and discover more.
+
+    </p>
+
+    <a
+        class="read-more"
+        [routerLink]="['/posts', post.id]">
+
+        Read Article →
+
+    </a>
+
+</div>
+
+<div
+    class="empty-state"
+    *ngIf="posts?.length == 0">
+
+    <div class="empty-icon">
+
+        📝
+
+    </div>
+
+    <h2>
+
+        No Articles Yet
+
+    </h2>
+
+    <p>
+
+        Be the first member of the community to publish an article.
+
+    </p>
+
 </div>

@@ -29,4 +29,16 @@ export class TokenStorageService {
     window.sessionStorage.setItem(USER_KEY, strId);
   }
 
+  public saveUsername(username: string): void {
+
+  window.sessionStorage.setItem('auth-username', username);
+
+}
+
+public getUsername(): string {
+
+  return window.sessionStorage.getItem('auth-username') || '';
+
+}
+
 }
