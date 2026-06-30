@@ -1,2 +1,3 @@
 .vs/ 
 *.dbmdl 
+node_modules

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5VbXeXSr3Jk=",
+  "dgSpecHash": "8j7pScDlnWo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\smerp\\RoqueLE2\\BlogTestUI\\BlogTestUI.csproj",
+  "projectFilePath": "C:\\Users\\smerp\\OneDrive\\Documents\\GitHub\\ITS153L-LE\\BlogTestUI\\BlogTestUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\smerp\\.nuget\\packages\\dapper\\2.1.79\\dapper.2.1.79.nupkg.sha512",
     "C:\\Users\\smerp\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\10.0.9\\microsoft.bcl.asyncinterfaces.10.0.9.nupkg.sha512",

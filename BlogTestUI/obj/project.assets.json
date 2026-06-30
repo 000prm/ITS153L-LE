@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net6.0": {
       "Dapper/2.1.79": {
@@ -1072,11 +1072,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\smerp\\RoqueLE2\\BlogTestUI\\BlogTestUI.csproj",
+      "projectUniqueName": "C:\\Users\\smerp\\OneDrive\\Documents\\GitHub\\ITS153L-LE\\BlogTestUI\\BlogTestUI.csproj",
       "projectName": "BlogTestUI",
-      "projectPath": "C:\\Users\\smerp\\RoqueLE2\\BlogTestUI\\BlogTestUI.csproj",
+      "projectPath": "C:\\Users\\smerp\\OneDrive\\Documents\\GitHub\\ITS153L-LE\\BlogTestUI\\BlogTestUI.csproj",
       "packagesPath": "C:\\Users\\smerp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\smerp\\RoqueLE2\\BlogTestUI\\obj\\",
+      "outputPath": "C:\\Users\\smerp\\OneDrive\\Documents\\GitHub\\ITS153L-LE\\BlogTestUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1095,10 +1095,11 @@
       },
       "frameworks": {
         "net6.0": {
+          "framework": "net6.0",
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\smerp\\RoqueLE2\\BlogDataLibrary\\BlogDataLibrary.csproj": {
-              "projectPath": "C:\\Users\\smerp\\RoqueLE2\\BlogDataLibrary\\BlogDataLibrary.csproj"
+            "C:\\Users\\smerp\\OneDrive\\Documents\\GitHub\\ITS153L-LE\\BlogDataLibrary\\BlogDataLibrary.csproj": {
+              "projectPath": "C:\\Users\\smerp\\OneDrive\\Documents\\GitHub\\ITS153L-LE\\BlogDataLibrary\\BlogDataLibrary.csproj"
             }
           }
         }
@@ -1113,10 +1114,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net6.0": {
+        "framework": "net6.0",
         "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.Extensions.Configuration": {
@@ -1144,7 +1146,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.315\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
